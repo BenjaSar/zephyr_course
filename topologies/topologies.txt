@@ -1,0 +1,43 @@
+T1 - Zephyr is the manifest of the repository
+	- start topology
+	- Uses cases 
+		- Building libraries that do not requeri significant modifications
+			- Kconfig
+			- Overlay
+	- Making modificationin Zephyr in your own branch/fork.
+T2 - Application is the manifest repository
+	- Uses cases:
+		- Focus on single application
+		- Application depends on other modules
+
+T3 - External project/repo is the manifest repository
+	- Uses cases:
+		- Focus on multiple independent application
+		- Applications(s) dependes on other modules
+
+
+
+Applications types
+
+- Application type describes how the main application(s) placed relative to Zephyr.
+- Typhes (in terms of zephyr): repository, workspace, freestanding
+- repository: application located in a Zephyr repository.
+- Workspace: application located in a workspace where zephyr is cloned.
+- freestanding: application located outside of a workspace.
+
+Zephyr repository application
+	Uses cases:
+	- Application "hellow_world" located within zephyr repo.
+	- Whenever topology T1 is used.
+	- Application developen in your own branch.
+
+Workspace
+	Uses cases:
+	- Application app located within a workspace but outside of zephyr repo.
+	- Whenever topology T1 or T2 are used.
+
+Freestanding
+	Uses cases:
+	- Application "app" located outside of a workspace.
+	- Application owns a number of dependencies which are set up without West.
+
