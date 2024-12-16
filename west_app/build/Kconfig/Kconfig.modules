@@ -1,0 +1,6 @@
+menu "hal_nordic (/home/fsiof/course_zephyr/west_app/deps/modules/hal/nordic)"
+osource "$(ZEPHYR_HAL_NORDIC_KCONFIG)"
+config ZEPHYR_HAL_NORDIC_MODULE
+	bool
+	default y
+endmenu

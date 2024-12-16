@@ -1,0 +1,21 @@
+#Author: FS
+#Based on the blog : https://interrupt.memfault.com/blog/practical_zephyr_west
+manifest:
+  version: 0.8
+
+  self:
+    path: app
+
+  projects:
+    - name: zephyr
+      revision: v3.4.0
+      url: https://github.com/zephyrproject-rtos/zephyr
+      import:
+        path-prefix: deps
+        # the `file` key is not strictly needed since `west.yml` is the default value.
+        file: west.yml
+        name-allowlist:
+          - cmsis
+          - hal_nordic
+
+

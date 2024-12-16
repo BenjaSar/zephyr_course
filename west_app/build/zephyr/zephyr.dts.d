@@ -1,0 +1,23 @@
+empty_file.o: \
+ /home/fsiof/course_zephyr/west_app/deps/zephyr/misc/empty_file.c \
+ /home/fsiof/course_zephyr/west_app/deps/zephyr/boards/arm/nrf52840dk_nrf52840/nrf52840dk_nrf52840.dts \
+ /home/fsiof/course_zephyr/west_app/deps/zephyr/dts/arm/nordic/nrf52840_qiaa.dtsi \
+ /home/fsiof/course_zephyr/west_app/deps/zephyr/dts/common/mem.h \
+ /home/fsiof/course_zephyr/west_app/deps/zephyr/dts/arm/nordic/nrf52840.dtsi \
+ /home/fsiof/course_zephyr/west_app/deps/zephyr/dts/arm/armv7-m.dtsi \
+ /home/fsiof/course_zephyr/west_app/deps/zephyr/dts/common/skeleton.dtsi \
+ /home/fsiof/course_zephyr/west_app/deps/zephyr/dts/arm/nordic/nrf_common.dtsi \
+ /home/fsiof/course_zephyr/west_app/deps/zephyr/include/zephyr/dt-bindings/adc/adc.h \
+ /home/fsiof/course_zephyr/west_app/deps/zephyr/include/zephyr/dt-bindings/adc/nrf-adc.h \
+ /home/fsiof/course_zephyr/west_app/deps/zephyr/include/zephyr/dt-bindings/dt-util.h \
+ /home/fsiof/course_zephyr/west_app/deps/zephyr/include/zephyr/sys/util_macro.h \
+ /home/fsiof/course_zephyr/west_app/deps/zephyr/include/zephyr/sys/util_internal.h \
+ /home/fsiof/course_zephyr/west_app/deps/zephyr/include/zephyr/sys/util_loops.h \
+ /home/fsiof/course_zephyr/west_app/deps/zephyr/include/zephyr/dt-bindings/gpio/gpio.h \
+ /home/fsiof/course_zephyr/west_app/deps/zephyr/include/zephyr/dt-bindings/i2c/i2c.h \
+ /home/fsiof/course_zephyr/west_app/deps/zephyr/include/zephyr/dt-bindings/pinctrl/nrf-pinctrl.h \
+ /home/fsiof/course_zephyr/west_app/deps/zephyr/include/zephyr/dt-bindings/pwm/pwm.h \
+ /home/fsiof/course_zephyr/west_app/deps/zephyr/dts/common/freq.h \
+ /home/fsiof/course_zephyr/west_app/deps/zephyr/dts/arm/nordic/override.dtsi \
+ /home/fsiof/course_zephyr/west_app/deps/zephyr/boards/arm/nrf52840dk_nrf52840/nrf52840dk_nrf52840-pinctrl.dtsi \
+ /home/fsiof/course_zephyr/west_app/app/boards/nrf52840dk_nrf52840.overlay

@@ -1,0 +1,2 @@
+"cmsis":"/home/fsiof/course_zephyr/west_app/deps/modules/hal/cmsis":"/home/fsiof/course_zephyr/west_app/deps/modules/hal/cmsis"
+"hal_nordic":"/home/fsiof/course_zephyr/west_app/deps/modules/hal/nordic":"${ZEPHYR_HAL_NORDIC_CMAKE_DIR}"
