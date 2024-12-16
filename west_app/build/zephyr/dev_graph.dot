@@ -1,0 +1,7 @@
+// /home/fsiof/course_zephyr/west_app/build/zephyr/zephyr_pre0.elf
+digraph "Device dependency graph" {
+	74 [label="clock@40000000\nOrdinal: 74 | Handle: 1\n/soc/clock@40000000"]
+	104 [label="gpio@50000300\nOrdinal: 104 | Handle: 2\n/soc/gpio@50000300"]
+	11 [label="gpio@50000000\nOrdinal: 11 | Handle: 3\n/soc/gpio@50000000"]
+	112 [label="uart@40002000\nOrdinal: 112 | Handle: 4\n/soc/uart@40002000"]
+}

@@ -1,0 +1,23 @@
+# Available runners configured by board.cmake.
+runners:
+- native_gdb
+
+# Default debug runner if --runner is not given.
+debug-runner: native_gdb
+
+# Common runner configuration values.
+config:
+  board_dir: /home/fsiof/course_zephyr/v3_6_0/zephyr_3_6/zephyr/boards/posix/native_posix
+  # Build outputs:
+  elf_file: zephyr.elf
+  exe_file: zephyr.exe
+  # Host tools:
+  openocd: /home/fsiof/zephyr-sdk-0.17.0/sysroots/x86_64-pokysdk-linux/usr/bin/openocd
+  openocd_search:
+    - /home/fsiof/zephyr-sdk-0.17.0/sysroots/x86_64-pokysdk-linux/usr/share/openocd/scripts
+
+# Runner specific arguments
+args:
+  native_gdb:
+    []
+
